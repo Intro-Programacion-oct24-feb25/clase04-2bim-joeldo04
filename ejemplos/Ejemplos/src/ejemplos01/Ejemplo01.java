@@ -20,11 +20,16 @@ public class Ejemplo01 {
         // String ciudad = "Loja";
         // String miCiudad = obtenerCiudadMayuscula(ciudad);
         // System.out.printf("%s\n", miCiudad);
-        obtenerMultiplicacion(7, 50);
+        //obtenerMultiplicacion(7, 50);
         // 
         
-        String miMensaje = obtenerMultiplicacionDos(7, 50);
-        System.out.printf("%s\n", miMensaje);
+        //String miMensaje = obtenerMultiplicacionDos(7, 50);
+        //System.out.printf("%s\n", miMensaje);
+        
+        String ciudad = "Loja";
+        String miCiudad = obtenerCiudadMayuscula(ciudad);
+        System.out.printf("%s\n", miCiudad);
+        
     }
     
     
@@ -32,6 +37,8 @@ public class Ejemplo01 {
         String m2 = m.toUpperCase();
         return m2;
     }
+    
+    
     
     public static void obtenerMultiplicacion(int tabla, int limite){
         String cadenaFinal = "";
@@ -44,7 +51,7 @@ public class Ejemplo01 {
         
         System.out.printf("%s\n", cadenaFinal);
     }
-    
+            
     public static String obtenerMultiplicacionDos(int tabla, int limite){
         String cadenaFinal = "";
         int resultado = 0;
@@ -53,6 +60,7 @@ public class Ejemplo01 {
             cadenaFinal = String.format("%s%d * %d = %d\n",
                     cadenaFinal, tabla, i, resultado);
         }
+        
         
         return cadenaFinal;
     }
