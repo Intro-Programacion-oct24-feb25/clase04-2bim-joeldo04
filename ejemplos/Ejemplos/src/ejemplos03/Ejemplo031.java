@@ -6,8 +6,6 @@
  */
 package ejemplos03;
 
-import ejemplos01.*;
-import static ejemplos01.Ejemplo12.ingresarPersona;
 import java.util.Scanner;
 
 /**
