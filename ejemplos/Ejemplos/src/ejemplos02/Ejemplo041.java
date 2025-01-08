@@ -10,7 +10,16 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo041 {
-
+    /*
+    En este ejemplo en el metodo Main existe un arreglo bidimensioal,
+    el arreglo 1 y arreglo 2 ya tienen un valor asignado mediante el uso 
+    de una funcion le podemos enviar el valor de cada posicion y que ambos 
+    se multipliquen de manera que nos daran los valores para el arreglo 3,
+    este al ser una funcion tiene dos parametros de tipo entero, debe existir
+    correspondencia es decir se debe enviar y recibir un entero, y tambien hay 
+    un procedimiento el cual nos permite presentar en una cadena de forma ordenada
+    los valores del arreglo bidimensional.
+    */
     public static void main(String[] args) {
         // 
         
